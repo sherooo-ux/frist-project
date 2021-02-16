@@ -1,0 +1,171 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Montserrat-bold" ;
+}
+ 
+
+h3{
+font-weight: unset;
+font-size: 50px;
+ }
+
+/* title section */
+#title{
+    background-color:#ef8172;
+    color: #fff;
+   
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.big-heading{
+    line-height: 1.6;
+
+}
+#title .container-fluid{
+    padding: 1% 15% 7%;
+}
+
+
+/* nav bar */
+
+
+ .navbar-brand {
+     font-weight: bold;
+     padding: 0 0;
+    
+ }
+ .nav-item{
+     padding: 0 18px;
+ }
+ .nav-link{
+     font-size: 1.2rem;
+ }
+ /* download buttons */
+ .btn{
+     margin: 5% 3% 5% 0;
+ }
+ /* title image */
+ .title-image{
+     width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+    }   
+    /* features-bom  */
+    #features{
+        padding: 7% 15%;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+    }    
+    .features-box{
+        text-align: center;
+        padding: 5%;
+    }
+    .features-box p {
+
+        color: #8f8f8f;
+    }
+    .features-box .fas {
+        color:#ef8172;
+        margin-bottom: 1rem;
+    }
+    .features-box .fas:hover {
+        color:yellowgreen;}
+
+        /* Testimonials */
+#testimonials {
+     text-align: center;
+     background-color: #ef8172;
+     color: #fff;
+
+ }
+ .carousel-item{
+    padding: 7% 15%;
+
+
+ }
+
+#testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+.testimonials-image {
+    width: 15%;
+    border-radius: 100px;
+    margin: 10px 15px 0 15px ;
+
+}
+/* press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+
+
+}
+#press img{
+    width: 18%;
+    margin: 20px 30px 50px;
+}
+.carousel-item img {
+    width: 15%;
+    border-radius: 100px;
+    margin: 10px 15px 0 15px ;
+
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#pricing .col{
+padding: 3% 2%;
+
+}
+#pricing h2 {
+    font-size: 3rem;
+}
+  /* section cta */
+  #cta {
+    background-color: #ef8172;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+}
+#cta h3{
+    font-weight: bold;
+    font-size: 60px;
+}
+/* footer */
+#footer{
+    text-align: center;
+    padding: 80px 80px 50px;
+    font-weight: 100;
+}
+.icons-footer{
+        margin: 20px 15px;
+    }
+
+/* media querey */
+@media ( max-width :1028px )
+{
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+
+
+
+
